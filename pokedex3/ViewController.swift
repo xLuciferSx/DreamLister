@@ -28,6 +28,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         collection.dataSource = self
         collection.delegate = self
         searchBar.delegate = self
+        searchBar.returnKeyType = UIReturnKeyType.done
         
         
         parsePokemonCSV()
@@ -93,11 +94,24 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
+    {
+     
+        var poke: Pokemon!
+        
+        if inSearchMode{
+            poke = filteredPokemon[indexPath.row]
+        } else  {
+            poke = pokemon[indexPath.row]
+        }
         
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        if inSearchMode {
+            return filteredPokemon.count
+        }
         return pokemon.count
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -119,13 +133,17 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
             sender.alpha = 1.0
         }
     }
-    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        view.endEditing(true)
+    }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         if searchBar.text == nil || searchBar.text == "" {
             inSearchMode = false
             collection.reloadData()
+            view.endEditing(true)
+            
         } else {
             inSearchMode = true
             
