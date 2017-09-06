@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		130962EC1F605F3900E5670F /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130962EB1F605F3900E5670F /* PokeCell.swift */; };
+		130962EE1F60671200E5670F /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130962ED1F60671200E5670F /* csv.swift */; };
 		134A25C01F604D0600C244B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A25BF1F604D0600C244B7 /* AppDelegate.swift */; };
 		134A25C21F604D0600C244B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A25C11F604D0600C244B7 /* ViewController.swift */; };
 		134A25C51F604D0600C244B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134A25C31F604D0600C244B7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		130962EB1F605F3900E5670F /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		130962ED1F60671200E5670F /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		134A25BC1F604D0600C244B7 /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		134A25BF1F604D0600C244B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		134A25C11F604D0600C244B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				134A25BF1F604D0600C244B7 /* AppDelegate.swift */,
 				134A25C61F604D0600C244B7 /* Assets.xcassets */,
 				139F4E171F6051F300E302B2 /* pokemon.csv */,
+				130962ED1F60671200E5670F /* csv.swift */,
 				134A25C81F604D0600C244B7 /* LaunchScreen.storyboard */,
 				134A25CB1F604D0600C244B7 /* Info.plist */,
 			);
@@ -130,6 +133,7 @@
 					134A25BB1F604D0600C244B7 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = X7989Y4B8C;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -175,6 +179,7 @@
 				134A25C21F604D0600C244B7 /* ViewController.swift in Sources */,
 				134A25C01F604D0600C244B7 /* AppDelegate.swift in Sources */,
 				139F4E1D1F60534100E302B2 /* Pokemon.swift in Sources */,
+				130962EE1F60671200E5670F /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
