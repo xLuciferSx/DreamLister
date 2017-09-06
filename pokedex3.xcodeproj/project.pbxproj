@@ -12,6 +12,7 @@
 		134A25C51F604D0600C244B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134A25C31F604D0600C244B7 /* Main.storyboard */; };
 		134A25C71F604D0600C244B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134A25C61F604D0600C244B7 /* Assets.xcassets */; };
 		134A25CA1F604D0600C244B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134A25C81F604D0600C244B7 /* LaunchScreen.storyboard */; };
+		139F4E181F6051F300E302B2 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 139F4E171F6051F300E302B2 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		134A25C61F604D0600C244B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		134A25C91F604D0600C244B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		134A25CB1F604D0600C244B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139F4E171F6051F300E302B2 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				134A25C11F604D0600C244B7 /* ViewController.swift */,
 				134A25C31F604D0600C244B7 /* Main.storyboard */,
 				134A25C61F604D0600C244B7 /* Assets.xcassets */,
+				139F4E171F6051F300E302B2 /* pokemon.csv */,
 				134A25C81F604D0600C244B7 /* LaunchScreen.storyboard */,
 				134A25CB1F604D0600C244B7 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				134A25CA1F604D0600C244B7 /* LaunchScreen.storyboard in Resources */,
 				134A25C71F604D0600C244B7 /* Assets.xcassets in Resources */,
+				139F4E181F6051F300E302B2 /* pokemon.csv in Resources */,
 				134A25C51F604D0600C244B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				134A25D01F604D0600C244B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
