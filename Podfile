@@ -6,7 +6,5 @@ target 'pokedex3' do
   use_frameworks!
 
   # Pods for pokedex3
-  
-  pod 'Alamofire', '~> 4.5'
-
+pod 'Alamofire', '~> 4.5'
 end

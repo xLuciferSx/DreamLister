@@ -1,14 +1,14 @@
 //
 //  CSV
-//  Modified by Raivis Olehno on 06/09/17 
+//  Modified by Mark Price on 08/14/15
 //
 
 import Foundation
 
-open class CSV {
-    open var headers: [String] = []
-    open var rows: [Dictionary<String, String>] = []
-    open var columns = Dictionary<String, [String]>()
+public class CSV {
+    public var headers: [String] = []
+    public var rows: [Dictionary<String, String>] = []
+    public var columns = Dictionary<String, [String]>()
     var delimiter = CharacterSet(charactersIn: ",")
     
     public init(content: String?, delimiter: CharacterSet, encoding: UInt) throws{
